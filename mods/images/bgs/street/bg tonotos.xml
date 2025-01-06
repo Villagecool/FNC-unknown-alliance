@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bg_tonotos.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idlea0000" x="1576" y="0" width="798" height="651" frameX="2" frameY="-17" frameWidth="794" frameHeight="666"/>
+	<SubTexture name="idlea0001" x="1576" y="651" width="794" height="651" frameX="0" frameY="-17" frameWidth="794" frameHeight="666"/>
+	<SubTexture name="idlea0002" x="0" y="1335" width="790" height="654" frameX="-3" frameY="-14" frameWidth="794" frameHeight="666"/>
+	<SubTexture name="idlea0003" x="0" y="1335" width="790" height="654" frameX="-3" frameY="-14" frameWidth="794" frameHeight="666"/>
+	<SubTexture name="idlea0004" x="788" y="669" width="788" height="663" frameX="-4" frameY="-4" frameWidth="794" frameHeight="666"/>
+	<SubTexture name="idlea0005" x="788" y="669" width="788" height="663" frameX="-4" frameY="-4" frameWidth="794" frameHeight="666"/>
+	<SubTexture name="idlea0006" x="0" y="669" width="788" height="666" frameX="-4" frameY="-2" frameWidth="794" frameHeight="666"/>
+	<SubTexture name="idlea0007" x="0" y="669" width="788" height="666" frameX="-4" frameY="-2" frameWidth="794" frameHeight="666"/>
+	<SubTexture name="idlea0008" x="788" y="0" width="788" height="669" frameX="-4" frameY="1" frameWidth="794" frameHeight="666"/>
+	<SubTexture name="idlea0009" x="788" y="0" width="788" height="669" frameX="-4" frameY="1" frameWidth="794" frameHeight="666"/>
+	<SubTexture name="idlea0010" x="0" y="0" width="788" height="669" frameX="-4" frameY="1" frameWidth="794" frameHeight="666"/>
+	<SubTexture name="idlea0011" x="0" y="0" width="788" height="669" frameX="-4" frameY="1" frameWidth="794" frameHeight="666"/>
+	<SubTexture name="idlea0012" x="0" y="0" width="788" height="669" frameX="-4" frameY="1" frameWidth="794" frameHeight="666"/>
+	<SubTexture name="idlea0013" x="0" y="0" width="788" height="669" frameX="-4" frameY="1" frameWidth="794" frameHeight="666"/>
+	<SubTexture name="idlea0014" x="0" y="0" width="788" height="669" frameX="-4" frameY="1" frameWidth="794" frameHeight="666"/>
+</TextureAtlas>

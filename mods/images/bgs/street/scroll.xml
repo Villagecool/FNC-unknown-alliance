@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="monsterbg.png">
+	
+	
+	<SubTexture name="bgscroll0000" x="15" y="15" width="600" height="337" />
+	<SubTexture name="bgscroll0001" x="630" y="15" width="600" height="337" />
+	<SubTexture name="bgscroll0002" x="1245" y="15" width="600" height="337" />
+	<SubTexture name="bgscroll0003" x="1860" y="15" width="600" height="337" />
+	<SubTexture name="bgscroll0004" x="2475" y="15" width="600" height="337" />
+	<SubTexture name="bgscroll0005" x="3090" y="15" width="600" height="337" />
+	<SubTexture name="bgscroll0006" x="15" y="367" width="600" height="337" />
+	<SubTexture name="bgscroll0007" x="630" y="367" width="600" height="337" />
+	<SubTexture name="bgscroll0008" x="1245" y="367" width="600" height="337" />
+	<SubTexture name="bgscroll0009" x="1860" y="367" width="600" height="337" />
+	<SubTexture name="bgscroll0010" x="2475" y="367" width="600" height="337" />
+	<SubTexture name="bgscroll0011" x="3090" y="367" width="600" height="337" />
+	<SubTexture name="bgscroll0012" x="15" y="720" width="600" height="337" />
+	<SubTexture name="bgscroll0013" x="630" y="720" width="600" height="337" />
+	<SubTexture name="bgscroll0014" x="1245" y="720" width="600" height="337" />
+	<SubTexture name="bgscroll0015" x="1860" y="720" width="600" height="337" />
+	<SubTexture name="bgscroll0016" x="2475" y="720" width="600" height="337" />
+	<SubTexture name="bgscroll0017" x="3090" y="720" width="600" height="337" />
+	<SubTexture name="bgscroll0018" x="15" y="1072" width="600" height="337" />
+	<SubTexture name="bgscroll0019" x="630" y="1072" width="600" height="337" />
+	<SubTexture name="bgscroll0020" x="1245" y="1072" width="600" height="337" />
+	<SubTexture name="bgscroll0021" x="1860" y="1072" width="600" height="337" />
+	<SubTexture name="bgscroll0022" x="2475" y="1072" width="600" height="337" />
+	<SubTexture name="bgscroll0023" x="3090" y="1072" width="600" height="337" />
+	<SubTexture name="bgscroll0024" x="15" y="1425" width="600" height="337" />
+	<SubTexture name="bgscroll0025" x="630" y="1425" width="600" height="337" />
+</TextureAtlas>

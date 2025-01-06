@@ -1,0 +1,2 @@
+v1: bf,dad,gf,anything else will return the camera to normal
+v2: camera speed

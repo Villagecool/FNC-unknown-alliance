@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="firebar.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Healthbar0000" x="50" y="50" width="633" height="405" frameX="-15" frameY="-25" frameWidth="668" frameHeight="439"/>
+	<SubTexture name="Healthbar0001" x="783" y="50" width="654" height="425" frameX="0" frameY="-12" frameWidth="668" frameHeight="439"/>
+	<SubTexture name="Healthbar0002" x="50" y="575" width="660" height="438" frameX="-8" frameY="0" frameWidth="668" frameHeight="439"/>
+	<SubTexture name="Healthbar0003" x="810" y="575" width="654" height="408" frameX="-11" frameY="-29" frameWidth="668" frameHeight="439"/>
+	<SubTexture name="Healthbar0004" x="50" y="1113" width="634" height="409" frameX="-14" frameY="-30" frameWidth="668" frameHeight="439"/>
+</TextureAtlas>

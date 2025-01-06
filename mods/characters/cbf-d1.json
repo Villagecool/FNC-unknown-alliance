@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "BF idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				73
+			],
+			"anim": "snap",
+			"fps": 24,
+			"name": "BF Finger snap0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				102,
+				11
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "BF NOTE LEFT0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				26,
+				-39
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "BF NOTE DOWN0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				40
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "BF NOTE UP0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-8,
+				-18
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "BF NOTE RIGHT0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bf_corrupt_sp",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "csbf",
+	"flip_x": true,
+	"healthbar_colors": [
+		41,
+		0,
+		87
+	],
+	"camera_position": [
+		100,
+		-70
+	],
+	"sing_duration": 5.3,
+	"scale": 1.05
+}
