@@ -1,5 +1,4 @@
-luaDebugMode = true
-local settings = {
+ local settings = {
 	coolBar = false,
 	hideTimeBar = false,
 	--fixComboPos = true, impossible to move combo pos in psych lua, i dont wanna recreate it in lua :/
@@ -426,7 +425,7 @@ function goodNoteHit(id, dir, typ, sus)
 	-- isSustainNote: If it's a hold note, can be either true or false
     if not isSustainNote then    
         notehitlol = notehitlol + 1;
-        --setTextString('tnh', 'Total Notes Hit: ' .. tostring(notehitlol))
+        setTextString('tnh', 'Total Notes Hit: ' .. tostring(notehitlol))
     end -- NOTE I DID NOT MAKE THIS FRANTASTIC24 MADE THIS!
 	if (not sus) then
 		tweenNumber(nil, "scoreSX", 1.075, 1, .2, nil, easing.linear)
@@ -463,7 +462,7 @@ end
 
 function onSongStart()
     if songPositionBar then
-        daSongLength = songLength / 1000
+        daSongLength = getProperty('songLength') / 1000
 
         --i have zero clue if using lua tweens for this is the right idea but for now this is what i'm doing
         doTweenX('timeStart', 'songPosBar2.scale', 0.001, 0.001, 'linear')
@@ -624,11 +623,11 @@ function onUpdate(dt)
     end
 
     notehitloltosting = tostring(notehitlol)
-    --setTextString('cm', 'Combos: ' .. getProperty('combo'))
-    --setTextString('sick', 'Sick!: ' .. getProperty('ratingsData[0].hits'))
-    --setTextString('good', 'Goods: ' .. getProperty('ratingsData[1].hits'))
-    --setTextString('bad', 'Bads: ' .. getProperty('ratingsData[2].hits'))
-    --setTextString('shit', 'Shits: ' .. getProperty('ratingsData[3].hits'))
+    setTextString('cm', 'Combos: ' .. getProperty('combo'))
+    setTextString('sick', 'Sick!: ' .. getProperty('sicks'))
+    setTextString('good', 'Goods: ' .. getProperty('goods'))
+    setTextString('bad', 'Bads: ' .. getProperty('bads'))
+    setTextString('shit', 'Shits: ' .. getProperty('shits'))
 	-- start of "update", some variables weren't updated yet
     -- setTextString('tnh', 'Total Notes Hit: ' + 1)
 
@@ -711,7 +710,7 @@ end
 	tnTick()
 	
 function onStepHit()
- 	setTextString('songLength', milliToHuman(math.floor(getSongPosition() - noteOffset)).. ' - ' .. milliToHuman(math.floor(songLength)) .. '\n')
+ 	setTextString('songLength', milliToHuman(math.floor(getPropertyFromClass('Conductor', 'songPosition') - noteOffset)).. ' - ' .. milliToHuman(math.floor(songLength)) .. '\n')
 end
   
   function posOverlaps(

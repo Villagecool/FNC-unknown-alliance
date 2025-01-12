@@ -1,0 +1,14 @@
+C:\HaxeToolkit\haxe\std/cpp/_std/sys/io/File.hx (line 30)
+Song.hx (line 104)
+FreeplayState.hx (line 371)
+flixel/FlxState.hx (line 222)
+flixel/FlxGame.hx (line 752)
+flixel/FlxGame.hx (line 682)
+flixel/FlxGame.hx (line 556)
+openfl/events/EventDispatcher.hx (line 444)
+openfl/display/DisplayObject.hx (line 1400)
+
+Uncaught Error: [file_contents,assets/data/tutorial/tutorial.json]
+Please report this error to the GitHub page: https://github.com/ShadowMario/FNF-PsychEngine
+
+> Crash Handler written by: sqirra-rng

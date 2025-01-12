@@ -1,5 +1,5 @@
 --Made my spectradev on discord
-luaDebugMode = true
+
 -- {songName , {p1IconX,p1IconY} , {p2IconX,p2IconY} , {healthbarXdownscroll,healthbarYdownscroll} , {healthbarXupscroll,healthbarYupscroll} , {innerBarX,innerBarY} , framerate , flipped}
 local BarData = {
     {'Booyah', --its literaly the song name, fuck you
@@ -96,8 +96,8 @@ end
 local timeFunny = 10
 function onUpdatePost(elapsed)
 
-    setProperty("iconP2.y", getProperty('healthbarOver.y')+(getProperty("iconP2.height")/10)-(originalP2height/2)+iconY2)
-    setProperty("iconP1.y", getProperty('healthbarOver.y')+(getProperty("iconP1.height")/10)-(originalP1height/2)+iconY1)
+    setProperty("iconP2.y", getProperty('healthbarOver.y')+(getProperty("iconP2.height")/10)-getMid(originalP2height)+iconY2)
+    setProperty("iconP1.y", getProperty('healthbarOver.y')+(getProperty("iconP1.height")/10)-getMid(originalP1height)+iconY1)
     if flipped then
         setProperty('flasher.color',getProperty("healthbarOver.color"))
         if getFrame('healthbarOver','width') > defaultWidth-2 then
